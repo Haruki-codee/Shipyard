@@ -1,0 +1,16 @@
+# Python (at the root)
+__pycache__/
+.venv/
+*.pyc
+
+# Frontend dependencies & build outputs (nested inside frontend folder)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend dependencies (if you have them later)
+backend/node_modules/
+
+# Environment secrets
+.env
+.env.*
